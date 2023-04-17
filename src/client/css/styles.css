@@ -57,7 +57,7 @@ a {
 .myLink {
     text-decoration: none;
     display: inline-block;
-    color: inherit;
+    color: var(--clr-blue);
 }
 
 .myLink:hover {
