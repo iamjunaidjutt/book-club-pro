@@ -78,6 +78,22 @@ a {
     background-color: var(--clr-blue-hover);
 }
 
+.myBtn-light {
+    background-color: var(--clr-light);
+    color: var(--clr-blue);
+    border: 1px solid var(--clr-blue);
+    padding: 0.4rem 0.6rem;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.myBtn-light:hover {
+    background-color: var(--clr-blue-hover);
+    color: var(--clr-light);
+}
+
 .myBtn-lg {
     background-color: var(--clr-blue);
     color: var(--clr-white);
@@ -99,4 +115,11 @@ a {
 .position-sign-up {
     position: absolute;
     right: 50;
+}
+
+
+/* ----------------------------- Home -------------------------------- */
+
+.myBorder {
+    border: 1px solid var(--clr-blue);
 }
