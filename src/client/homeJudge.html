@@ -37,14 +37,18 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
-                  <li class="nav-item mx-4">
+                  <li class="nav-item mx-3">
                     <a class="myLink active" aria-current="page" href="#">Competition</a>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2 myBorder" type="search" placeholder="Find your favorite book" aria-label="Search">
-                  <button class="myBtn-light" type="submit">Search</button>
+                <form class="d-flex me-3" role="search">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search By Name" aria-label="Username"
+                          aria-describedby="basic-addon1">
+                      <a href="#" class="input-group-text"><box-icon name='search'></box-icon></a>
+                </div>
                 </form>
+                <button class="myBtn-light" type="submit">Logout</button>
               </div>
         </div>
     </nav>
