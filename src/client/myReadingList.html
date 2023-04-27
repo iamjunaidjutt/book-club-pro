@@ -18,7 +18,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Club</title>
+    <title>Reading List</title>
 </head>
 
 <body>
@@ -46,9 +46,6 @@
                   <li class="nav-item mx-3">
                     <a class="myLink" href="#">Competition</a>
                   </li>
-                  <li class="nav-item mx-3">
-                    <a class="myLink" href="#">Publish Book</a>
-                  </li>
                 </ul>
                 <form class="d-flex me-3" role="search">
                   <div class="input-group">
@@ -67,43 +64,71 @@
                 <div class="row">
                     <div class="col-md-8 py-4">
                         <div class="mb-5 pt-5 pe-5">
-                            <h1 class="myText-white fw-bold fs-1">Club</h1>
+                            <h1 class="myText-white fw-bold fs-1">My Reading List</h1>
                             <p class="myText-white fs-5 my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi delectus cum rerum quod, quis dolores sit, veritatis minima, porro officia quibusdam nihil iure natus maiores odio repellendus mollitia illum eum?</p>
                         </div>
                     </div>
                     <div class="col-md-4 p-1">
-                        <img src="../../resources/img/home1.png" alt="Book Reading"  width="450px">
+                        <img src="../../resources/img/readingList.png" alt="Book Reading"  width="450px">
                     </div>
                 </div>
             </div>
         </section>
         <section class="container">
-            <div class="d-flex justify-content-around mt-5">
-                <div class="px-5 text-center myText-blue myBg-light pt-4 rounded shadow-sm">
-                  <a href="./discussionForum.html" class="myLink">
-                    <img src="../../resources/img/discussion.png" alt="user" width="84px">
-                    <p class="mt-2">Discussion Forum</p>
-                  </a>
+            <div class="d-flex">
+                <a href="" class="d-flex align-items-center my-3 ms-auto"><box-icon name='book-open' class="me-2"></box-icon>Add More</a>
+            </div>
+            <div class="artists row mb-5">
+                <h3 class="fs-3 mb-3">Books</h3>
+                <div class="col-md-3">
+                    <div class="card myBg-Light" style="width: 15rem;">
+                        <img src="../../resources/img/book1.png" class="card-img-top" alt="Asking Alexanderia">
+                        <div class="card-body">
+                            <h5 class="card-title myText-blue">Nineteen Eighty-Four</h5>
+                            <div class="my-2">
+                                <p class="mb-0">Edition: 1st</p>
+                                <p class="mb-0">Genre: Science Fiction</p>
+                                <p class="mb-0">Author: Lead Ahmad</p>
+                                <p class="mb-0">Publisher: XYZ</p>
+                            </div>
+                            <a href="./artistInfo.html" class="myBtn">Read</a>
+                            <a href="./artistInfo.html" class="btn btn-danger">Delete</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="px-5 text-center myText-blue myBg-light pt-5 rounded shadow-sm">
-                  <a href="" class="myLink">
-                    <img src="../../resources/img/meeting.png" alt="user" width="84px">
-                    <p class="mt-2">Meetings</p>
-                  </a>
+                <div class="col-md-3">
+                    <div class="card myBg-Light" style="width: 15rem;">
+                        <img src="../../resources/img/book2.png" class="card-img-top" alt="Asking Alexanderia">
+                        <div class="card-body">
+                            <h5 class="card-title myText-blue">In Cold Blood</h5>
+                            <div class="my-2">
+                                <p class="mb-0">Edition: 1st</p>
+                                <p class="mb-0">Genre: Science Fiction</p>
+                                <p class="mb-0">Author: Lead Ahmad</p>
+                                <p class="mb-0">Publisher: XYZ</p>
+                            </div>
+                            <a href="./artistInfo.html" class="myBtn">Read</a>
+                            <a href="./artistInfo.html" class="btn btn-danger">Delete</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="px-5 text-center myText-blue myBg-light pt-4 rounded shadow-sm">
-                  <a href="" class="myLink">
-                    <img src="../../resources/img/list.png" alt="user" width="64px">
-                    <p class="mt-1">Club Details</p>
-                  </a>
+                <div class="col-md-3">
+                    <div class="card myBg-Light" style="width: 15rem;">
+                        <img src="../../resources/img/book3.png" class="card-img-top" alt="Asking Alexanderia">
+                        <div class="card-body">
+                            <h5 class="card-title myText-blue">Prisoner of Azkaban</h5>
+                            <div class="my-2">
+                                <p class="mb-0">Edition: 1st</p>
+                                <p class="mb-0">Genre: Science Fiction</p>
+                                <p class="mb-0">Author: Lead Ahmad</p>
+                                <p class="mb-0">Publisher: XYZ</p>
+                            </div>
+                            <a href="./artistInfo.html" class="myBtn">Read</a>
+                            <a href="./artistInfo.html" class="btn btn-danger">Delete</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="px-5 text-center myText-blue myBg-light pt-4 rounded shadow-sm">
-                  <a href="" class="myLink">
-                    <img src="../../resources/img/rList.png" alt="user" width="64px">
-                    <p class="mt-1">Publish Book</p>
-                  </a>
-                </div>
-              </div>              
+            </div>
         </section>
     </main>
 

@@ -76,6 +76,7 @@ a {
 
 .myBtn:hover {
     background-color: var(--clr-blue-hover);
+    color: var(--clr-white);
 }
 
 .myBtn-light {
@@ -119,7 +120,12 @@ a {
 
 
 /* ----------------------------- Home -------------------------------- */
-
 .myBorder {
     border: 1px solid var(--clr-blue);
+}
+
+/* ----------------------------- Discussion Forum -------------------------------- */
+
+.maxWidth {
+    max-width: 75%;
 }
